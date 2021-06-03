@@ -509,6 +509,7 @@ function createCar2 () {
         `, SpriteKind.SürdürülebilirDönüştürücü2)
     tiles.placeOnRandomTile(araba2, sprites.dungeon.buttonOrangeDepressed)
 }
+let level = 0
 let araba2: Sprite = null
 let mySprite2: Sprite = null
 let araba: Sprite = null
@@ -516,12 +517,11 @@ let facingLeft = 0
 let hero: Sprite = null
 let currentItemCount = 0
 let carrier = false
+let currentItemCount2 = 0
 createCar1()
 carrier = false
 info.setScore(0)
-let level = 0
 currentItemCount = 0
-let currentItemCount2 = 0
 hero = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
